@@ -1,15 +1,24 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
 
 function App() {
-
   return (
     <>
-      <h1 className="text-3xl font-bold underline bg-blue-500">
-        Hello world!
-      </h1>
+      <div className="w-full bg-red-500 flex justify-end p-3 mb-4">
+        <ul className='flex gap-5'>
+          <li>Hello</li>
+          <li>Hello</li>
+          <li>Hello</li>
+        </ul>
+      </div>
+      <div className="flex flex-col">
+        <div className="border-2 flex-grow grid place-items-center">
+          <h1 className="text-3xl font-bold underline">
+            Hello world!
+          </h1>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
