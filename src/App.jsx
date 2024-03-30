@@ -11,7 +11,7 @@ function App() {
         </ul>
       </div>
       <div className="flex flex-col">
-        <div className="border-2 flex-grow grid place-items-center">
+        <div className="border-2 grid place-items-center">
           <h1 className="text-3xl font-bold underline">
             Hello world!
           </h1>
